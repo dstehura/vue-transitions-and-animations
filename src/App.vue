@@ -99,6 +99,10 @@ h2 {
   margin: 20px;
 }
 
+.fade-move {
+  transition: all 1s linear;
+}
+
 .fade-enter-from {
   opacity: 0;
 }
@@ -108,6 +112,10 @@ h2 {
 .fade-leave-to {
   transition: all 1s linear;
   opacity: 0;
+}
+
+.fade-leave-active{
+  position: absolute;
 }
 
 @keyframes zoom-in {
